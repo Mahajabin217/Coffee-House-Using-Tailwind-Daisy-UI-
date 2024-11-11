@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House</title>
+
+    <!---------- Tailwind & Daisy UI ---------->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!---------- Manrope Google Font ---------->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!--------- Style CSS -------->
+
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', 'sans-serif';
+        }
+    </style>
+
+    <!----------- Tailwind Custom Color ---------->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+
+<body class="font-manrope">
+    <header class="container mx-auto">
+        <div class="hero min-h-screen"
+            style="background-image: url('images/background_img.jpg');">
+            <div class="hero-overlay bg-opacity-60 bg-black"></div>
+            <div class="hero-content text-white text-left text-neutral-content">
+                <div class="max-w-md">
+                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <p class="py-6">
+                        Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                        quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    </p>
+                    <button class="btn btn-warning">Get Started</button>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
