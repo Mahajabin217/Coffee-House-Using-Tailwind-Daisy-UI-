@@ -44,25 +44,67 @@
 </head>
 
 <body class="font-manrope">
+
+    <!------------ Navbar Part ---------->
+
+    <div class="navbar bg-white font-bold text-black">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>Conatct Us</a></li>
+                </ul>
+            </div>
+            <img src="images/logo.png" alt="logo" class="w-16 h-14">
+            <h2>Coffee House</h2>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Shop</a></li>
+                <li><a>Conatct Us</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a class="btn btn-warning">Order</a>
+        </div>
+    </div>
+    <!----------- Hero Section ---------->
     <header class="container mx-auto">
-        <div class="hero min-h-screen"
-            style="background-image: url('images/background_img.jpg');">
-            <div class="hero-overlay bg-opacity-60 bg-black"></div>
-            <div class="hero-content text-white text-left text-neutral-content">
+        <div class="hero min-h-screen" style="background-image: url('images/background_img.jpg');">
+            <div class="hero-overlay bg-opacity-50 bg-black"></div>
+            <div class="hero-content text-white text-center text-neutral-content">
                 <div class="max-w-md">
-                    <h1 class="text-5xl font-bold">Box Office News!</h1>
+                    <h1 class="text-5xl font-bold">Discover The Best Coffee Before Your Activity</h1>
                     <p class="py-6">
                         Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
                         quasi. In deleniti eaque aut repudiandae et a id nisi.
                     </p>
-                    <button class="btn btn-warning">Get Started</button>
+                    <button class="btn btn-warning">Order</button>
                 </div>
             </div>
         </div>
-
     </header>
 
-    <main>
+    <main class="container mx-auto">
+
+        <!---------- Featured Section --------->
+
+        <div class="bg-black text-center text-white m-20">
+            <h1 class="text-5xl font-bold text-center">Our Feature Products</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, voluptate repellat odit nesciunt quo aliquid exercitationem natus nam quisquam deserunt.</p>
+        </div>
 
     </main>
 
